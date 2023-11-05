@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+#nav-container {
+    height: -webkit-fill-available;
+}
+
+body,
+#root {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+.slider-arrow {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.slider-page {
+    background-color: #ccc;
+}
+
+.splide-arrows {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    width: 100%;
+}
+
+.loading {
+    background: conic-gradient(transparent, #286dd4)
+}
